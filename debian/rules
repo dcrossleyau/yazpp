@@ -21,5 +21,4 @@ override_dh_installchangelogs:
 	dh_installchangelogs NEWS
 
 override_dh_installdocs:
-	cp LICENSE debian/copyright
 	dh_installdocs -A README
